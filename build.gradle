@@ -1,0 +1,10 @@
+apply plugin:'application'
+apply plugin:'java'
+
+mainClassName = "Twidor"
+
+jar {
+    manifest {
+        attributes 'Main-Class': 'Twidor'
+    }
+}
